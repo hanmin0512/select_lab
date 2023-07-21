@@ -31,7 +31,7 @@
 - 편차 확인
 
 ## 테스트 화면
-- write.py read.py 실행 및 편차 출력
+- write.py read.py 실행 및 편차 출력 <Br>
 ![1](https://github.com/hanmin0512/select_lab/assets/37041208/6ed2fd13-824f-491c-bac2-cb490f3d61e3)
 
 - example.xlsx
