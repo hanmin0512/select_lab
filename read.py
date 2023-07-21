@@ -35,13 +35,13 @@ def sel1(sorted_people):
     global park_giseok1, park_sohyun1, oh1, do1, no
     for person in sorted_people:
         #print(person.name)
-        if person.sel1 == '박기석':
+        if person.sel1 == 'A':
             park_giseok1.append(person)#([person.name, person.score])
-        elif person.sel1 == '오승현':
+        elif person.sel1 == 'D':
             oh1.append(person)#([person.name, person.score])
-        elif person.sel1 == '도재수':
+        elif person.sel1 == 'C':
             do1.append(person)#([person.name, person.score])
-        elif person.sel1 == '박소현':
+        elif person.sel1 == 'B':
             park_sohyun1.append(person)#([person.name, person.score]) 
         else:
             no.append(person)
@@ -56,13 +56,13 @@ def sel2(sorted_people):
     global park_giseok2, oh2, do2, park_sohyun2
     for person in sorted_people:
         #print(person.name)
-        if person.sel2 == '박기석':
+        if person.sel2 == 'A':
             park_giseok2.append(person)#([person.name, person.score])
-        elif person.sel2 == '오승현':
+        elif person.sel2 == 'D':
             oh2.append(person)#([person.name, person.score])
-        elif person.sel2 == '도재수':
+        elif person.sel2 == 'C':
             do2.append(person)#([person.name, person.score])
-        elif person.sel2 == '박소현':
+        elif person.sel2 == 'B':
             park_sohyun2.append(person)#([person.name, person.score]) 
 
     park_giseok2 = sorting(park_giseok2)
@@ -79,13 +79,13 @@ def sel3(sorted_people):
     global park_giseok3, oh3, do3, park_sohyun3
     for person in sorted_people:
     #print(person.name)
-        if person.sel3 == '박기석':
+        if person.sel3 == 'A':
             park_giseok3.append(person)#([person.name, person.score])
-        elif person.sel3 == '오승현':
+        elif person.sel3 == 'D':
             oh3.append(person)#([person.name, person.score])
-        elif person.sel3 == '도재수':
+        elif person.sel3 == 'C':
             do3.append(person)#([person.name, person.score])
-        elif person.sel3 == '박소현':
+        elif person.sel3 == 'B':
             park_sohyun3.append(person)#([person.name, person.score]) 
     park_giseok3 = sorting(park_giseok3)
     park_sohyun3 = sorting(park_sohyun3)
@@ -104,13 +104,13 @@ def sel4(sorted_people):
      
     for person in sorted_people:
     #print(person.name)
-        if person.sel4 == '박기석':
+        if person.sel4 == 'A':
             park_giseok4.append(person)#([person.name, person.score])
-        elif person.sel4 == '오승현':
+        elif person.sel4 == 'D':
             oh4.append(person)#([person.name, person.score])
-        elif person.sel4 == '도재수':
+        elif person.sel4 == 'C':
             do4.append(person)#([person.name, person.score])
-        elif person.sel4 == '박소현':
+        elif person.sel4 == 'B':
             park_sohyun4.append(person)#([person.name, person.score]) 
 
     park_giseok4 = sorting(park_giseok4)
@@ -269,10 +269,10 @@ do = remainder(do)
 
 remain = sorting(remain)
 last_sel(remain)
-write_excel(park_giseok, "박기석")
-write_excel(park_sohyun, "박소현")
-write_excel(oh, "오승현")
-write_excel(do, "도재수")
+write_excel(park_giseok, "A")
+write_excel(park_sohyun, "B")
+write_excel(oh, "D")
+write_excel(do, "C")
 '''
 printP(park_giseok1)
 printP(park_sohyun1)
